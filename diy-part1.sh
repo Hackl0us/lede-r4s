@@ -16,3 +16,10 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+# Add OpenClash package
+git clone --depth 1 https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+
+# Add Argon theme
+rm -rf package/lean/luci-theme-argon
+git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
