@@ -21,5 +21,5 @@
 git clone --depth 1 https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 
 # Add Argon theme
-rm -rf package/lean/luci-theme-argon
-git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+# rm -rf package/lean/luci-theme-argon
+# git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
